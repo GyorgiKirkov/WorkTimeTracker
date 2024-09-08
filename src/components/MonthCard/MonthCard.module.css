@@ -1,0 +1,13 @@
+/* MonthCard.module.css */
+.cardbox {
+  width: 150px;
+  margin: 10px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  box-shadow: 3px 5px 15px 2px rgba(67, 189, 15, 0.733);
+}
+
+.cardbox:hover {
+  transform: scale(1.05);
+  background-color: greenyellow;
+}

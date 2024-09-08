@@ -1,0 +1,24 @@
+@keyframes colorChange {
+  0% { background: linear-gradient(45deg, #6a11cb, #2575fc); } 
+  20% { background: linear-gradient(45deg, #8e2de2, #4a00e0); } 
+  100% { background: linear-gradient(45deg, #6a11cb, #2575fc); } 
+}
+.main {
+  animation: colorChange 90s linear infinite;
+  background: linear-gradient(45deg, #6a11cb, #2575fc); 
+  min-height: 100dvh;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 80px;
+  padding-top: 85px;
+}
+
+.cardbox {
+  margin-top: 150px;
+}
+ 
