@@ -1,0 +1,56 @@
+
+.clock {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  transform: rotateX(10deg);
+  transform-style: preserve-3d;
+}
+
+.date {
+  font-size: 14px;
+  margin-bottom: 5px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.time {
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 768px) {
+  .clock {
+    position: fixed;
+    width:95%;
+    padding: 8px;
+    text-align: right;
+    box-shadow: none;
+    transform: none;
+  }
+
+  .date {
+    font-size: 12px;
+  }
+
+  .time {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .date {
+    font-size: 10px;
+  }
+
+  .time {
+    font-size: 18px;
+  }
+}
